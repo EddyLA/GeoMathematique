@@ -1,0 +1,52 @@
+/*
+Eddy Bardoulat_2018
+
+Ce script calcul le volum et la surface d'un rectangle
+renvoi le rayon et le diamètre d'un cercle en donnant son aire
+*/
+
+h2
+{
+	color: green;
+	text-align: center;
+}
+
+input:focus
+{
+   background-color: #FFF8DC;
+   color: purple;
+   font-size: 0.8em;
+}
+
+label
+{
+	display: block;
+    color: orange;
+	width: 200px;
+	float: left;
+}
+ 
+legend 
+{
+   font-family: Arial, "Arial Black", Georgia, "Times New Roman", Times, serif;
+   color: #5F9EA0;
+   font-weight: bold;
+}
+ 
+fieldset
+{
+   width: 360px;
+   margin-bottom: 15px;
+   background-color: #F2F2F2;
+}
+
+.erreur {
+	font-size: 10px;
+	color: #FF0000;
+	font-weight: bold;
+}
+.reussite {
+	font-size: 10px;
+	font-weight: bold;
+	color: #669900;
+}
